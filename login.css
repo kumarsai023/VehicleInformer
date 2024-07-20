@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.back{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+.name{
+    width: auto;
+    height:10%;
+    align-items: center;
+}
+.name h1{
+    font-family : northstar outline;
+    font-size: 115px;
+    text-align: center;
+    color:rgba(15, 7, 0, 0.85);
+    font-weight:600;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    width:420px;
+    background-color: transparent;
+    border:3px solid rgba(231, 25, 25, 0.978);
+    /* outline:2px solid #de22e8; */
+    backdrop-filter: blur(4px);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-left:38%;
+    margin-right: 50%;
+    margin-top: 5%;
+}
+.container h1{
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color:rgb(223, 202, 108)
+}
+.container .box{
+    width:100%;
+    height:50px;
+    margin:30px 0;
+}
+
+.box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:3px solid rgba(231, 25, 25, 0.978);
+    outline: rgb(255, 25, 247);
+    font-size: 16px;
+    color:#fff;
+    border-radius: 40px;
+    padding:20px 45px 20px 20px;
+}
+.box input::placeholder{
+    color:rgb(74, 236, 217);
+}
+
+.box .label{
+    color:rgb(74, 236, 217);
+    margin-top: 2px;
+}
+a{
+    color:rgb(74, 236, 217);
+}
+.container .btn{
+   float: left;
+   width:100px;
+   height:45px;
+   background:transparent;
+   border:20px;
+   outline:3px solid rgb(250, 33, 33);
+   border-radius: 40px;
+   box-shadow: 0 0 10px rbga(0,0,0,.1);
+   cursor: pointer;
+   font-size: 16px;
+   color:rgb(74, 236, 217);
+   font-weight: 600;
+   
+}
+@media (min-aspect-ratio:16/9)
+{
+    .back{
+        height: 100%;
+        width:auto;
+    }
+}
+@media (min-aspect-ratio:16/9)
+{
+    .back{
+        width: 100%;
+        height:auto;
+    }
+}

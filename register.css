@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .container{
+    width:420px;
+    background-color: transparent;
+    border:3px solid rgb(225, 169, 16);
+    backdrop-filter: blur(2px);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.container .box{
+    width:100%;
+    height:30px;
+    margin:20px 0;
+}
+.box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:3px solid rgba(255, 255, 255, 0.978);
+    font-size: 16px;
+    color:rgb(225, 169, 16);
+    border-radius: 40px;
+    padding:20px 45px 20px 20px;
+}
+.container .btn{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    width:100px;
+    height:45px;
+    background:transparent;
+    border:20px;
+    outline:3px solid rgb(225, 169, 16);
+    border-radius: 40px;
+    font-size: 16px;
+    color:rgb(255, 255, 255);  
+    margin-top: 15px;
+    margin-left: 37%;
+    cursor: pointer;
+ }
+ .box input::placeholder{
+    color:rgb(225, 169, 16);
+}
+.back{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+@media (min-aspect-ratio:16/9)
+{
+    .back{
+        height: 100%;
+        width:auto;
+    }
+}
+@media (min-aspect-ratio:16/9)
+{
+    .back{
+        width: 100%;
+        height:auto;
+    }
+}
+.popup{
+    width:400px;
+    background: #ffffff;
+    border-radius: 6px;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform:translate(-50%,-50%) scale(1.0);
+}
+.popup img{
+    width:100px;
+    margin-top:-50px;
+    border-radius:50px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+.popup button{
+    width:100%;
+    margin-top:30px;
+    padding:10px 0;
+    background-color: black;
+    color:#fffefe;
+    border:0;
+    outline:none;
+    font-size:18px;
+    border-radius:4px;
+    cursor:pointer;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2); 
+}
+.popup h2{
+    font-size: 200%;
+}
+.popup p{
+    font-size: larger;
+}
+
+.container p{
+    font-size: larger;
+}
+.container h1{
+    margin-bottom:8px;
+    color: rgb(225, 169, 16);;
+}
+
