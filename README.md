@@ -37,4 +37,4 @@ This is a simple min application uses html , css , php , mysql to perform crud o
 18. It will take you to admin page where you can modify and delete vehicle information.
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/TheM1N9/stella).
+Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/kumarsai023/VehicleInformer).
